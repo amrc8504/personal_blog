@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Account{% endblock %}
+{% block content %}
+<h1 style="text-align: center;">{{ user.user_name }}</h1><hr>
+<div class="form-bubble">
+<h3>Email: {{ user.email }}</h3>
+<h3>Name: {{ user.user_name }}</h3>
+<button class="btn btn-primary">Edit Account</button>
+</div>
+{% endblock %}
